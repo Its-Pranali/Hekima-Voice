@@ -1,11 +1,14 @@
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
+import MotionStyles from "./MotionStyles";
 
 function Main() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
+      <MotionStyles />
+
       <main className="flex-grow">
         <Outlet />
       </main>
@@ -14,4 +17,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Main;

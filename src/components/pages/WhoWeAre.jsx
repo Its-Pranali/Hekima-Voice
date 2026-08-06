@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { COLORS, Reveal, Counter, SoundBars, Eyebrow } from "../../utils/ui";
+
 function WhoWeAre() {
   return (
     <section id="who-we-are" className="py-20 md:py-28 overflow-hidden" style={{ background: COLORS.cream }}>
@@ -28,8 +29,9 @@ function WhoWeAre() {
         <Reveal delay={150} y={34}>
           <div className="img-zoom w-full aspect-[4/3] rounded-2xl" style={{ background: COLORS.lavender }}>
             <div className="img-zoom-inner w-full h-full flex items-center justify-center">
-              <span className="text-[13px] px-6 text-center" style={{ color: COLORS.purpleDeep }}>
-                Photo of the team or community, coming soon
+              <span className="text-[13px] text-center overflow-hidden" style={{ color: COLORS.purpleDeep }}>
+                {/* Photo of the team or community, coming soon */}
+                <img src="../../../public/assets/img2.jpg" alt="Team Photo" />
               </span>
             </div>
           </div>

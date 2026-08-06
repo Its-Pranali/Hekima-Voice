@@ -13,7 +13,7 @@ export const COLORS = {
   goldSoft: "#D9B646",
   ink: "#211B2E",
   inkSoft: "#5B5468",
-  line: "#E4DCCB",
+  line: "rgb(107 13 144)",
   lineDark: "#3A3348",
 };
 

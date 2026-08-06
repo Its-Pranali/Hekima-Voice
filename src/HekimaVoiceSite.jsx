@@ -772,7 +772,6 @@ export default function HekimaVoiceSite() {
   return (
     <div>
       <MotionStyles />
-      <Header />
       <Hero />
       <WhoWeAre />
       <WhatWeDo />
@@ -780,7 +779,6 @@ export default function HekimaVoiceSite() {
       <Impact />
       <Support />
       <Contact />
-      <Footer />
     </div>
   );
 }

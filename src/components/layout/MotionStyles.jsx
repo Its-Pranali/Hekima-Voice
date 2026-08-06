@@ -78,7 +78,7 @@ function MotionStyles() {
         content: ""; position: absolute; left: 10px; bottom: 1px; height: 2px; width: 0;
         background: currentColor; transition: width .3s cubic-bezier(.16,1,.3,1);
       }
-      .link-underline:hover::after { width: 90%;margin:auto; }
+      .link-underline:hover::after { width: 100%; }
 
       .row-hover { transition: background-color .3s ease, padding-left .3s ease; }
       .row-hover:hover { background-color: rgba(255,255,255,0.03); padding-left: 12px; }

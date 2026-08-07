@@ -195,4 +195,23 @@
   margin: -4em 3em 0em 0em;
   padding: 1em 2em 2em 2em;
   border-radius: 0px 0px 0px 50px;
+
+}
+
+.spread-hope-sec {
+  background-image: url('../../../public/assets/woman-is-holding-a-red-hearth.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.test-img {
+  border-radius: 0px 90px 90px 90px;
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 42px;
+  border-radius: 90px 0px 90px 90px;
 }

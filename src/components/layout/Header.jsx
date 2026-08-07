@@ -22,18 +22,42 @@ function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 backdrop-blur header-shadow py-3" style={{
-        background: "#fff",
-        // borderBottom: `1px solid ${COLORS.line}`,
-        boxShadow: scrolled ? "0 8px 24px -18px rgba(27,22,38,0.35)" : "none",
-      }} >
+      <header
+        className="z-50 header-sec header-shadow"
+        style={{
+          background: scrolled
+            ? "rgba(255, 255, 255, 0.7)"
+            : "",
+          // backdropFilter: "blur(20px)",
+          WebkitBackdropFilter: "blur(20px)",
+          // borderBottom: scrolled
+          //   ? `1px solid rgba(167, 112, 197, 0.15)`
+          //   : "1px solid rgba(255, 255, 255, 0.05)",
+          boxShadow: scrolled
+            ? "0 10px 30px -10px rgba(88, 17, 125, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.4)"
+            : "none",
+          transition: "all 0.4s cubic-bezier(0.16, 1, 0.3, 1)",
+          paddingTop: scrolled ? "4px" : "12px",
+          paddingBottom: scrolled ? "4px" : "12px",
+        }}
+      >
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 h-[76px] flex items-center justify-between">
           {/* <a href="#top" className="font-serif text-[20px] tracking-tight btn-anim inline-block" style={{ color: COLORS.ink }}>
           Hekima<span style={{ color: COLORS.purple }}>Voice</span>
         </a> */}
 
-          <a href="#top" className="tracking-tight btn-anim inline-block header-logo">
-            <img src="./../public/assets/site-logo.png" alt="Site Logo" className="site-logo" />
+          <a href="#top" className="tracking-tight btn-anim inline-block header-logo flex items-center" style={{ maxWidth: "200px", width: "auto" }}>
+            <img
+              src="/assets/site-logo.png"
+              alt="Site Logo"
+              className="site-logo"
+              style={{
+                height: scrolled ? "90px" : "100px",
+                width: "auto",
+                objectFit: "contain",
+                transition: "height 0.4s cubic-bezier(0.16, 1, 0.3, 1)"
+              }}
+            />
           </a>
 
           {/* <nav className="hidden lg:flex items-center gap-8">

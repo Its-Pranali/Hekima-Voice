@@ -52,25 +52,49 @@ function Programs() {
         <Reveal>
           <SoundBars tone="dark" className="mb-4" />
           <Eyebrow tone="gold">Our Programs</Eyebrow>
-          <h2 className="font-serif mt-4 leading-[1.15] tracking-tight" style={{ color: "#F6F1E6", fontSize: "clamp(26px, 3.4vw, 36px)" }}  >
+          <h2 className="font-serif my-4 leading-[1.15] tracking-tight" style={{ color: "#F6F1E6", fontSize: "clamp(26px, 3.4vw, 36px)" }}  >
             Ongoing work, shaped by the people it serves.
           </h2>
         </Reveal>
 
         <div className="grid md:grid-cols-3 gap-6">
-           <div className="col-md-4">
-               <div className="program-block">
-                  <img src="../../../public/assets/img16.jpeg" alt="" className="program-img w-100" />
-               </div>
-               <div className="program-content-block">
-                  <div>
-                     <p>Monthly resident-led meetings that surface priorities and shape our yearly agenda.</p>
-                  </div>
-               </div>
-           </div>
+          <div className="col-md-4 relative">
+            <div className="program-block">
+              <img src="../../../public/assets/img16.jpeg" alt="" className="program-img w-100" />
+            </div>
+            <div className="program-content-block absolute">
+              <div>
+                <h4 className="text-left w-500"><b>Neighbourhood Circles</b></h4>
+                <p className="text-left">Monthly resident-led meetings that surface priorities and shape our yearly agenda.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 relative">
+            <div className="program-block">
+              <img src="../../../public/assets/img16.jpeg" alt="" className="program-img w-100" />
+            </div>
+            <div className="program-content-block absolute">
+              <div>
+                <h4 className="text-left w-500"><b>Youth Voice Fellowship</b></h4>
+                <p className="text-left">
+                  A paid fellowship training young people in organizing, public speaking, and civic process.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 relative">
+            <div className="program-block">
+              <img src="../../../public/assets/img16.jpeg" alt="" className="program-img w-100" />
+            </div>
+            <div className="program-content-block absolute">
+              <div>
+                <h4 className="text-left w-500"><b>Rapid Response Fund</b></h4>
+                <p className="text-left">Emergency grants for families facing eviction, utility shutoff, or sudden crisis.</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="mt-14" style={{ borderTop: `1px solid ${COLORS.lineDark}` }}>
+        {/* <div className="mt-14" style={{ borderTop: `1px solid ${COLORS.lineDark}` }}>
           {rows.map((r, i) => (
             <Reveal key={r.name} delay={i * 80} y={18}>
               <div className="row-hover grid md:grid-cols-[280px_1fr] gap-2 md:gap-10 py-7 rounded-md" style={{ borderBottom: `1px solid ${COLORS.lineDark}` }} >
@@ -83,7 +107,7 @@ function Programs() {
               </div>
             </Reveal>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import { COLORS, Reveal, Counter, SoundBars, Eyebrow } from "../../utils/ui";
 
 function WhoWeAre() {
   return (
-    <section id="who-we-are" className="py-20 md:py-28 overflow-hidden" style={{ background: COLORS.cream }}>
+    <section id="who-we-are" className="py-20 md:py-28 overflow-hidden" style={{ background: COLORS.light }}>
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 grid md:grid-cols-2 gap-14 items-center">
         <Reveal>
           <SoundBars className="mb-4" />

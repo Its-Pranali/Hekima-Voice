@@ -6,6 +6,7 @@ import Programs from "./Programs";
 import Impact from "./Impact";
 import Support from "./Support";
 import Contact from "./Contact";
+import SpreadHope from "./SpreadHope";
 
 function HekimaVoice() {
     return (
@@ -15,6 +16,7 @@ function HekimaVoice() {
             <WhatWeDo />
             <Programs />
             <Impact />
+            <SpreadHope />
             <Support />
             <Contact />
         </>

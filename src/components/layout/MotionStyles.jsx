@@ -75,7 +75,7 @@ function MotionStyles() {
 
       .link-underline { position: relative; }
       .link-underline::after {
-        content: ""; position: absolute; left: 10px; bottom: 1px; height: 2px; width: 0;
+        content: ""; position: absolute; left: 0px; bottom: -5px; height: 2px; width: 0;
         background: currentColor; transition: width .3s cubic-bezier(.16,1,.3,1);
       }
       .link-underline:hover::after { width: 100%; }

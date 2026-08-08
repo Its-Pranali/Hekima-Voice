@@ -27,14 +27,13 @@ function Hero() {
       <div className="blob-a pointer-events-none absolute -top-24 -right-16 w-[420px] h-[420px] rounded-full" style={{ background: `radial-gradient(circle, ${COLORS.purple}33, transparent 70%)`, filter: "blur(30px)" }} aria-hidden="true" />
       <div className="blob-b pointer-events-none absolute top-40 -left-24 w-[360px] h-[360px] rounded-full" style={{ background: `radial-gradient(circle, ${COLORS.gold}2e, transparent 70%)`, filter: "blur(30px)" }} aria-hidden="true" />
 
-      <div className="relative max-w-[1200px] mx-auto px-6 md:px-10 pt-16 md:pt-24 pb-20 md:pb-28 z-10">
+      <div className="relative max-w-[1200px] mx-auto px-6 md:px-10 pt-28 md:pt-28 pb-20 md:pb-28 z-10">
         <div className="hero-in" style={{ animationDelay: "0ms" }}>
           <Eyebrow tone="gold">Hekima Voice · Community Advocacy</Eyebrow>
         </div>
 
-        <h1 className="hero-in font-serif mt-6 leading-[1.08] tracking-tight" style={{ color: "#ffffff", fontSize: "clamp(34px, 5.4vw, 58px)", animationDelay: "90ms", textShadow: "0 2px 12px rgba(0, 0, 0, 0.25)" }} >
-          Wisdom is what a
-          <br className="hidden md:block" /> community
+        <h1 className="hero-in font-serif mt-6 leading-[1.08] tracking-tight" style={{ color: "#ffffff", fontSize: "clamp(30px, 5.4vw, 58px)", animationDelay: "90ms", textShadow: "0 2px 12px rgba(0, 0, 0, 0.25)" }} >
+          Wisdom is what a community
           <br className="hidden md:block" /> already knows.
           <br />
           <span style={{ color: "#56F5FF" }}>We help it be heard.</span>

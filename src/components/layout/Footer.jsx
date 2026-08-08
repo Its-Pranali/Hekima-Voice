@@ -30,7 +30,7 @@ function Footer() {
       />
 
       {/* Main footer content */}
-      <div className="relative max-w-[1200px] mx-auto px-6 md:px-10 pt-20 pb-10">
+      <div className="relative max-w-[1200px] mx-auto px-6 md:px-10 pt-40 pb-10">
         <div className="grid md:grid-cols-[1.4fr_1fr_1fr_1.3fr] gap-12">
           {/* Brand column */}
           <Reveal>

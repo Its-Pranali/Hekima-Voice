@@ -6,7 +6,7 @@ function Header() {
   // const links = ["Who We Are", "What We Do", "Programs", "Impact", "Support", "Contact"];
   const links = [
     { label: "Who We Are" },
-    { label: "What We Do", subItems: ["Current Programs", "Previous Programs"] },
+    { label: "What We Do", subItems: ["Current Programmes", "Past Programmes"] },
     { label: "Get Involved" },
     { label: "Impact" },
     { label: "Support" },
@@ -26,7 +26,7 @@ function Header() {
         className="z-50 header-sec header-shadow"
         style={{
           background: scrolled
-            ? "rgba(255, 255, 255, 0.7)"
+            ? "#fff"
             : "",
           // backdropFilter: "blur(20px)",
           WebkitBackdropFilter: "blur(20px)",

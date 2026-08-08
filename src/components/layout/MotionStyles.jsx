@@ -65,7 +65,7 @@ function MotionStyles() {
       .accent-line { animation: underline-grow .8s cubic-bezier(.16,1,.3,1) both; }
 
       .lift { transition: transform .35s cubic-bezier(.16,1,.3,1), box-shadow .35s cubic-bezier(.16,1,.3,1); }
-      .lift:hover { transform: translateY(-6px); box-shadow: 0 20px 40px -18px rgba(27,22,38,0.28); }
+      // .lift:hover { transform: translateY(-6px); box-shadow: 0 20px 40px -18px rgba(27,22,38,0.28); }
 
       .btn-anim { transition: transform .28s cubic-bezier(.16,1,.3,1), box-shadow .28s cubic-bezier(.16,1,.3,1), background-color .28s ease; }
       .btn-anim:hover { transform: translateY(-2px) scale(1.03); }

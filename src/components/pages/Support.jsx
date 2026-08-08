@@ -19,7 +19,7 @@ function Support() {
     },
   ];
   return (
-    <section id="support" className="py-20 md:py-28" style={{ background: COLORS.cream }}>
+    <section id="support" className="py-20 md:py-28" style={{ background: COLORS.light }}>
       <div className="max-w-[1200px] mx-auto px-6 md:px-10">
         <Reveal>
           <SoundBars className="mb-4" />

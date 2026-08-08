@@ -7,6 +7,7 @@ import Impact from "./Impact";
 import Support from "./Support";
 import Contact from "./Contact";
 import SpreadHope from "./SpreadHope";
+import Gallery from "./Gallery";
 
 function HekimaVoice() {
     return (
@@ -19,6 +20,7 @@ function HekimaVoice() {
             <SpreadHope />
             <Support />
             <Contact />
+            <Gallery />
         </>
     );
 }

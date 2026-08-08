@@ -47,12 +47,12 @@ function Programs() {
     //     </div>
     //   </div>
     // </section>
-    <section id="programs" className="py-20 md:py-28" style={{ background: COLORS.dark }}>
+    <section id="current-programmes" className="py-20 md:py-28" style={{ background: COLORS.light }}>
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 text-center">
-        <Reveal>
-          <SoundBars tone="dark" className="mb-4" />
-          <Eyebrow tone="gold">Our Programs</Eyebrow>
-          <h2 className="font-serif my-4 leading-[1.15] tracking-tight" style={{ color: "#F6F1E6", fontSize: "clamp(26px, 3.4vw, 36px)" }}  >
+        <Reveal className="mb-6">
+          <SoundBars tone="dark" className="mb-4 text-center justify-center" />
+          <Eyebrow tone="gold" style={{color:'rgb(122, 63, 163)'}}>Our Programs</Eyebrow>
+          <h2 className="font-serif my-4 leading-[1.15] tracking-tight" style={{ color: "rgb(33, 27, 46)", fontSize: "clamp(26px, 3.4vw, 36px)" }}  >
             Ongoing work, shaped by the people it serves.
           </h2>
         </Reveal>
@@ -60,7 +60,7 @@ function Programs() {
         <div className="grid md:grid-cols-3 gap-6">
           <div className="col-md-4 relative">
             <div className="program-block">
-              <img src="../../../public/assets/img16.jpeg" alt="" className="program-img w-100" />
+              <img src="../../../public/assets/img11.jpeg" alt="" className="program-img w-100" />
             </div>
             <div className="program-content-block absolute">
               <div>
@@ -71,7 +71,7 @@ function Programs() {
           </div>
           <div className="col-md-4 relative">
             <div className="program-block">
-              <img src="../../../public/assets/img16.jpeg" alt="" className="program-img w-100" />
+              <img src="../../../public/assets/img5.jpg" alt="" className="program-img w-100" />
             </div>
             <div className="program-content-block absolute">
               <div>
@@ -83,7 +83,7 @@ function Programs() {
           </div>
           <div className="col-md-4 relative">
             <div className="program-block">
-              <img src="../../../public/assets/img16.jpeg" alt="" className="program-img w-100" />
+              <img src="../../../public/assets/img21.jpeg" alt="" className="program-img w-100" />
             </div>
             <div className="program-content-block absolute">
               <div>

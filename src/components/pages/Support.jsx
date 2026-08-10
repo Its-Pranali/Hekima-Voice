@@ -6,16 +6,19 @@ function Support() {
       title: "Give",
       text: "One-time or monthly gifts fund the Rapid Response Fund and keep our programs free.",
       cta: "Donate now",
+      link: "#give",
     },
     {
       title: "Volunteer",
       text: "Facilitate a Neighbourhood Circle, mentor a fellow, or lend a professional skill.",
       cta: "See openings",
+      link: "#get-involved",
     },
     {
       title: "Spread the Word",
       text: "Share an impact story or invite us to speak with your own community or organization.",
       cta: "Get in touch",
+      link: "#contact",
     },
   ];
   return (
@@ -39,7 +42,7 @@ function Support() {
                 <p className="mt-3 text-[14px] leading-relaxed" style={{ color: COLORS.inkSoft }}>
                   {c.text}
                 </p>
-                <a href="#contact" className="link-underline inline-block mt-5 text-[13px] font-semibold" style={{ color: COLORS.purple }}>
+                <a href={c.link} className="link-underline inline-block mt-5 text-[13px] font-semibold" style={{ color: COLORS.purple }}>
                   {c.cta} →
                 </a>
               </div>

@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import WhoWeAre from "./WhoWeAre";
 import WhatWeDo from "./WhatWeDo";
 import Programs from "./Programs";
+import GetInvolved from "./GetInvolved";
 import Impact from "./Impact";
 import Support from "./Support";
 import Contact from "./Contact";
@@ -16,6 +17,7 @@ function HekimaVoice() {
             <WhoWeAre />
             <WhatWeDo />
             <Programs />
+            <GetInvolved />
             <Impact />
             <SpreadHope />
             <Support />

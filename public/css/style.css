@@ -192,15 +192,25 @@
 
 .program-content-block {
   background-color: #8ed7df;
-  ;
   margin: -4em 3em 0em 0em;
   padding: 1em 2em 2em 2em;
   border-radius: 0px 0px 0px 50px;
+}
 
+@media (max-width: 767px) {
+  .program-content-block {
+    position: relative !important;
+    margin: -2.5em 1em 0em 0em;
+    padding: 1.25em 1.5em;
+    border-radius: 0px 0px 0px 36px;
+  }
+  .program-img {
+    height: 240px;
+  }
 }
 
 .spread-hope-sec {
-  background-image: url('../../../public/assets/woman-is-holding-a-red-hearth.jpg');
+  background-image: url('/assets/woman-is-holding-a-red-hearth.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -222,9 +232,11 @@
   width: 100%;
 }
 
-.test-card {
-  margin-bottom: -70px;
-  margin-top: 70px;
+@media (min-width: 768px) {
+  .test-card {
+    margin-bottom: -70px;
+    margin-top: 70px;
+  }
 }
 
 /* .gallery-img {
@@ -308,4 +320,10 @@
 }
 .g-img4{
   border-radius: 60px 60px 0px 60px;
+}
+
+.explore-tab{
+  width:100%;
+  max-width:75%;
+  margin:auto;
 }

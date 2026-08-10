@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import GetInvolved from "./components/pages/GetInvolved";
 
 
 /* ---------- Design tokens ---------- */
@@ -229,7 +230,7 @@ function MotionStyles() {
 function Header() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const links = ["Who We Are", "What We Do", "Programs", "Impact", "Support", "Contact"];
+  const links = ["Who We Are", "What We Do", "Programs", "Get Involved", "Impact", "Support", "Contact"];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -776,6 +777,7 @@ export default function HekimaVoiceSite() {
       <WhoWeAre />
       <WhatWeDo />
       <Programs />
+      <GetInvolved />
       <Impact />
       <Support />
       <Contact />

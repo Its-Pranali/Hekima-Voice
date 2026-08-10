@@ -154,9 +154,8 @@ function Programs() {
           {/* Slider Window */}
           <div className="overflow-hidden py-4 -my-4 px-1 -mx-1">
             <div
-              className={`flex items-stretch transition-transform duration-500 ease-out ${
-                !isTransitioning ? "transition-none" : ""
-              }`}
+              className={`flex items-stretch transition-transform duration-500 ease-out ${!isTransitioning ? "transition-none" : ""
+                }`}
               style={{
                 transform: `translateX(-${(currentIndex * 100) / visibleSlides}%)`,
               }}
@@ -235,20 +234,19 @@ function Programs() {
               key={dotIdx}
               onClick={() => goToSlide(dotIdx)}
               aria-label={`Go to slide ${dotIdx + 1}`}
-              className={`h-2.5 rounded-full transition-all duration-300 ${
-                activeDotIndex === dotIdx
-                  ? "w-8 bg-[rgb(122,63,163)]"
-                  : "w-2.5 bg-purple-200 hover:bg-purple-300"
-              }`}
+              className={`h-2.5 rounded-full transition-all duration-300 ${activeDotIndex === dotIdx
+                ? "w-8 bg-[rgb(122,63,163)]"
+                : "w-2.5 bg-purple-200 hover:bg-purple-300"
+                }`}
             />
           ))}
         </div>
 
-        {/* Past Programs Section */}
-        <div className="mt-20 pt-16 border-t border-purple-100/80 text-left">
-          <Reveal className="mb-10 text-center">
+        {/* Past Programs Section (Non-Card Editorial Layout with Images) */}
+        <div className="mt-24 pt-16 border-t border-purple-100/80 text-left">
+          <Reveal className="mb-14 text-center">
             <Eyebrow tone="purple">Impact Legacy</Eyebrow>
-            <h3 className="font-serif text-2xl md:text-3xl font-bold mt-2" style={{ color: "rgb(33, 27, 46)" }}>
+            <h3 className="font-serif text-2xl md:text-4xl font-bold mt-2" style={{ color: "rgb(33, 27, 46)" }}>
               Past Programs
             </h3>
             <p className="max-w-xl mx-auto text-slate-600 text-sm md:text-base leading-relaxed mt-2">
@@ -256,53 +254,123 @@ function Programs() {
             </p>
           </Reveal>
 
-          <div className="grid md:grid-cols-2 gap-8 items-stretch">
-            {/* Past Program 1 */}
-            <Reveal delay={100} className="h-full flex">
-              <div className="w-full bg-slate-50/80 hover:bg-white rounded-2xl p-7 md:p-8 border border-purple-100/80 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group">
-                <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-purple-100 text-purple-900">
-                      <Clock className="w-3.5 h-3.5 text-purple-700" />
-                      Past Program
+          <div className="space-y-16">
+            {/* Past Program 1: Street-Connected Children Program */}
+            <Reveal delay={100}>
+              <div className="grid md:grid-cols-12 gap-8 lg:gap-14 items-center pb-14 border-b border-purple-100/80">
+                <div className="md:col-span-6">
+                  <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-100 group">
+                    <img
+                      src="/assets/kids-group.jpg"
+                      alt="Street-Connected Children Program"
+                      className="w-full h-[320px] md:h-[380px] object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70" />
+                    <span className="absolute top-4 left-4 bg-white/95 backdrop-blur-md text-[11px] font-bold text-purple-900 px-3.5 py-1.5 rounded-full shadow-sm uppercase tracking-wider">
+                      Child Protection & Reunification
                     </span>
-                    <span className="text-xs font-semibold text-slate-400">01</span>
                   </div>
-                  <h4 className="font-serif font-bold text-xl text-[rgb(33,27,46)] group-hover:text-purple-800 transition-colors mb-3">
+                </div>
+
+                <div className="md:col-span-6">
+                  <span className="text-xs uppercase font-bold tracking-widest text-purple-700">
+                    Past Program • Initiative 01
+                  </span>
+                  <h4 className="font-serif font-bold text-2xl md:text-3xl text-[rgb(33,27,46)] mt-2 mb-4 leading-tight">
                     Street-Connected Children Program
                   </h4>
-                  <p className="text-slate-600 text-sm leading-relaxed">
+                  <p className="text-slate-600 text-base md:text-[16px] leading-relaxed mb-6">
                     Supports children living or working on the streets through protection, education, family reunification, and access to basic services.
                   </p>
-                </div>
-                <div className="pt-4 mt-6 border-t border-slate-200/60 flex items-center justify-between text-xs font-medium text-slate-500">
-                  <span>Focus: Child Protection & Reunification</span>
-                  <span className="text-purple-700 font-semibold">Completed Initiative</span>
+                  <ul className="space-y-2.5 text-sm text-slate-700 font-medium">
+                    <li className="flex items-center gap-2.5">
+                      <span className="w-2 h-2 rounded-full bg-purple-600" />
+                      Protection and basic services access for vulnerable children
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <span className="w-2 h-2 rounded-full bg-purple-600" />
+                      Family reunification & educational re-entry support
+                    </li>
+                  </ul>
                 </div>
               </div>
             </Reveal>
 
-            {/* Past Program 2 */}
-            <Reveal delay={200} className="h-full flex">
-              <div className="w-full bg-slate-50/80 hover:bg-white rounded-2xl p-7 md:p-8 border border-purple-100/80 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group">
-                <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-900">
-                      <Clock className="w-3.5 h-3.5 text-amber-700" />
-                      Past Program
+            {/* Past Program 2: Family Strengthening Program */}
+            <Reveal delay={200}>
+              <div className="grid md:grid-cols-12 gap-8 lg:gap-14 items-center pb-14 border-b border-purple-100/80">
+                <div className="md:col-span-6 md:order-2">
+                  <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-100 group">
+                    <img
+                      src="/assets/img 1.jpg"
+                      alt="Family Strengthening Program"
+                      className="w-full h-[320px] md:h-[380px] object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70" />
+                    <span className="absolute top-4 left-4 bg-white/95 backdrop-blur-md text-[11px] font-bold text-amber-900 px-3.5 py-1.5 rounded-full shadow-sm uppercase tracking-wider">
+                      Household Resilience
                     </span>
-                    <span className="text-xs font-semibold text-slate-400">02</span>
                   </div>
-                  <h4 className="font-serif font-bold text-xl text-[rgb(33,27,46)] group-hover:text-purple-800 transition-colors mb-3">
+                </div>
+
+                <div className="md:col-span-6 md:order-1">
+                  <span className="text-xs uppercase font-bold tracking-widest text-amber-700">
+                    Past Program • Initiative 02
+                  </span>
+                  <h4 className="font-serif font-bold text-2xl md:text-3xl text-[rgb(33,27,46)] mt-2 mb-4 leading-tight">
                     Family Strengthening Program
                   </h4>
-                  <p className="text-slate-600 text-sm leading-relaxed">
+                  <p className="text-slate-600 text-base md:text-[16px] leading-relaxed mb-6">
                     Supports vulnerable families to improve childcare, protection, economic stability, and household resilience, reducing the risk of children entering street situations.
                   </p>
+                  <ul className="space-y-2.5 text-sm text-slate-700 font-medium">
+                    <li className="flex items-center gap-2.5">
+                      <span className="w-2 h-2 rounded-full bg-amber-600" />
+                      Empowering parents with economic stability & childcare skills
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <span className="w-2 h-2 rounded-full bg-amber-600" />
+                      Preventive community care reducing street vulnerability
+                    </li>
+                  </ul>
                 </div>
-                <div className="pt-4 mt-6 border-t border-slate-200/60 flex items-center justify-between text-xs font-medium text-slate-500">
-                  <span>Focus: Household Resilience</span>
-                  <span className="text-purple-700 font-semibold">Completed Initiative</span>
+              </div>
+            </Reveal>
+
+            {/* Vision & Mission Banner with smiling-lady-kid.webp */}
+            <Reveal delay={300}>
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-900 text-white mt-10">
+                <div className="grid md:grid-cols-12 items-center">
+                  <div className="md:col-span-7 p-8 md:p-12 z-10 text-left space-y-6">
+                    {/* Vision */}
+                    <div>
+                      <span className="inline-block text-xs uppercase font-bold tracking-widest text-amber-400 mb-1.5">
+                        Vision
+                      </span>
+                      <p className="font-serif text-lg md:text-xl font-medium leading-relaxed text-slate-100">
+                        A just and inclusive society where every child, adolescent girl, and young woman is protected from exploitation and abuse.
+                      </p>
+                    </div>
+
+                    {/* Mission */}
+                    <div className="pt-4 border-t border-slate-800">
+                      <span className="inline-block text-xs uppercase font-bold tracking-widest text-purple-400 mb-1.5">
+                        Mission
+                      </span>
+                      <p className="text-slate-300 text-sm md:text-base leading-relaxed">
+                        To end the cycle of trafficking, exploitation, and violence by advancing rights, amplifying voices, and strengthening the leadership of children, adolescent girls, and young women through advocacy, protection, and empowerment.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="md:col-span-5 h-[320px] md:h-[420px] relative overflow-hidden">
+                    <img
+                      src="/assets/smiling-lady-kid.webp"
+                      alt="Hekima Voice Vision and Mission"
+                      className="w-full h-full object-cover object-center"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/40 to-transparent md:block hidden" />
+                  </div>
                 </div>
               </div>
             </Reveal>

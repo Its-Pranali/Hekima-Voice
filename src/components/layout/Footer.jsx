@@ -141,9 +141,19 @@ function Footer() {
 
         {/* Divider */}
         <div className="mt-16 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4" style={{ borderTop: `1px solid ${COLORS.lineDark}` }}>
-          <span className="text-[12px]" style={{ color: "#8B84A0" }}>
+          {/* <span className="text-[12px]" style={{ color: "#8B84A0" }}>
             © 2026 Hekima Voice. All rights reserved.
-          </span>
+          </span> */}
+
+          <p className="text-[12px]" style={{ color: "#8B84A0" }}>
+  © 2026 Hekima Voice. All rights reserved.{" "}
+  <span className="text-slate-500">
+    Developed by{" "}
+    <a href="https://pranalis-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="font-medium underline decoration-slate-300 underline-offset-2 hover:text-slate-700 transition-colors" >
+      Pranali Nikam
+    </a>
+  </span>
+</p>
           <div className="flex items-center gap-6">
             <a href="#top" className="link-underline text-[12px]" style={{ color: "#8B84A0" }}>
               Privacy Policy

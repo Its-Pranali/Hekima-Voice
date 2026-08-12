@@ -611,12 +611,12 @@ function Programs() {
                       </div>
 
                       {/* Card Footer */}
-                      <div className="pt-5 mt-6 border-t border-slate-100 flex items-center justify-between">
+                      {/* <div className="pt-5 mt-6 border-t border-slate-100 flex items-center justify-between">
                         <span className="text-xs font-bold text-purple-700 group-hover/card:translate-x-1.5 transition-transform inline-flex items-center gap-1.5">
                           Explore Program <ArrowRight className="w-3.5 h-3.5" />
                         </span>
                         <span className="text-[11px] text-slate-400 font-medium">Hekima Voice</span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

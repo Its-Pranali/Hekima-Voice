@@ -384,7 +384,7 @@ export default function GetInvolved() {
                   className="read-more-btn w-full justify-center text-center py-4"
                   style={{ textDecoration: "none" }}
                 >
-                  <span>Explore ASA Fellowship Guidelines</span>
+                  <span>View Guidelines</span>
                   <ExternalLink size={16} />
                 </a>
               </div>
@@ -459,7 +459,7 @@ export default function GetInvolved() {
                   className="read-more-btn w-full justify-center text-center py-4"
                   style={{ textDecoration: "none" }}
                 >
-                  <span>View Our Workaway Profile & Reviews</span>
+                  <span>See Our Reviews</span>
                   <ExternalLink size={16} />
                 </a>
               </div>
@@ -472,7 +472,7 @@ export default function GetInvolved() {
         {/* ================= PART 3: VOLUNTEER APPLICATION FORM (MATCHING SITE PALETTE) ================= */}
         <div ref={formRef} className="mt-24 md:mt-32">
           <Reveal>
-            <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-purple-50 via-white to-purple-100/60 border border-purple-200/80 p-8 sm:p-12 md:p-14 shadow-2xl shadow-purple-900/10">
+            <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-purple-50 via-white to-purple-100/60 border border-purple-200/80 px-3 py-8 sm:p-12 md:p-14 shadow-2xl shadow-purple-900/10">
 
               <div className="relative z-10 grid lg:grid-cols-12 gap-12 items-center">
 
@@ -649,7 +649,7 @@ export default function GetInvolved() {
                         className="read-more-btn w-full justify-center text-center py-4"
                       >
                         <Send size={17} />
-                        <span>Submit Volunteer Application</span>
+                        <span>Submit Application</span>
                       </button>
                     </form>
                   )}

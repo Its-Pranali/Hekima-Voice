@@ -201,7 +201,7 @@ export default function GetInvolved() {
                 <button
                   key={cat.id}
                   onClick={() => setActiveTab(cat.id)}
-                  className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all duration-200 ${activeTab === cat.id
+                  className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-all duration-200 ${activeTab === cat.id
                     ? "text-white shadow-md"
                     : "text-slate-600 hover:text-purple-900 hover:bg-white/50"
                     }`}

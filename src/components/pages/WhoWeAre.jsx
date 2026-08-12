@@ -98,7 +98,7 @@ function WhoWeAre() {
               <div className="img-zoom-inner w-full h-full flex items-center justify-center">
                 <span className="text-[13px] text-center overflow-hidden" style={{ color: COLORS.purpleDeep }}>
                   {/* Photo of the team or community, coming soon */}
-                  <img src="../../../public/assets/img2.jpg" alt="Team Photo" />
+                  <img src="/assets/img2.jpg" alt="Team Photo" />
                 </span>
               </div>
             </div>

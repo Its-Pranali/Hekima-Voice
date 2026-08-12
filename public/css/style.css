@@ -327,3 +327,9 @@
   max-width:75%;
   margin:auto;
 }
+
+@media(max-width:767px){
+  .explore-tab{
+    max-width:100%;
+  }
+}

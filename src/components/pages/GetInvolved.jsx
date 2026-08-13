@@ -378,7 +378,8 @@ export default function GetInvolved() {
                 </div>
 
                 <a
-                  href="https://africanservices.org"
+                  href="#"
+                  // href="https://africanservices.org"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="read-more-btn w-full justify-center text-center py-4"
@@ -453,7 +454,8 @@ export default function GetInvolved() {
                 </div>
 
                 <a
-                  href="https://www.workaway.info"
+                  // href="https://www.workaway.info"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="read-more-btn w-full justify-center text-center py-4"

@@ -142,7 +142,19 @@ function Header() {
           </button>
         </div>
 
-        <div className={`lg:hidden menu-panel ${open ? "open" : ""}`}>
+        {/* <div className={`lg:hidden menu-panel ${open ? "open" : ""}`}> */}
+        <div
+  className={`lg:hidden menu-panel ${open ? "open" : ""}`}
+  style={{
+    background: "#fff",
+    position: "absolute",
+    top: "100%",
+    left: 0,
+    right: 0,
+    zIndex: 50,
+    boxShadow: "0 20px 40px -10px rgba(88, 17, 125, 0.15)",
+  }}
+>
           <div>
             <div className="px-6 pb-6 flex flex-col gap-4" style={{ borderTop: `1px solid ${COLORS.line}` }}>
               {/* {links.map((l) => (

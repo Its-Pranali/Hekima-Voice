@@ -47,8 +47,19 @@ function Header() {
         </a> */}
 
           <a href="#top" className="tracking-tight btn-anim inline-block header-logo flex items-center" style={{ maxWidth: "200px", width: "auto" }}>
-            <img
+            {/* <img
               src="/assets/site-logo.png"
+              alt="Site Logo"
+              className="site-logo"
+              style={{
+                height: scrolled ? "90px" : "100px",
+                width: "auto",
+                objectFit: "contain",
+                transition: "height 0.4s cubic-bezier(0.16, 1, 0.3, 1)"
+              }}
+            /> */}
+            <img
+              src="/assets/Hekima-voice-logo.png"
               alt="Site Logo"
               className="site-logo"
               style={{

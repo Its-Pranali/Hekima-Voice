@@ -297,7 +297,7 @@ function Impact() {
   const stats = [
     { num: 1200, prefix: "", suffix: "+", label: "Women Reached" },
     { num: 38, prefix: "", suffix: "", label: "Capital Distributed" },
-    { num: 180, prefix: "$", suffix: "K", label: "Participants" },
+    { num: 180, prefix: "", suffix: "K", label: "Participants" },
     { num: 6, prefix: "", suffix: "", label: "Businesses Launched" },
     { num: 100, prefix: "", suffix: "", label: "Training Sessions" },
   ];

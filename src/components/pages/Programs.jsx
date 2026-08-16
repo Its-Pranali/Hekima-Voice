@@ -429,7 +429,7 @@ function Programs() {
       id: 4,
       title: "Cultural Exchange & International Partnerships",
       desc: "Empower adolescent girls and young women (AGYW) through creative arts, cultural learning, and international exchange while promoting mutual understanding, skills development, and sustainable partnerships.",
-      img: "/assets/img21.jpeg",
+      img: "/assets/cultural and exchange pic.JPG",
       tag: "Global Exchange",
     },
   ];

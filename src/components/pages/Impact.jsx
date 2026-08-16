@@ -108,7 +108,7 @@ function Impact() {
   return (
     <>
       <section id="impact-testimonials" className="relative overflow-hidden py-12 md:py-28" style={{ background: COLORS.cream }}>
-        <div className="max-w-[1200px] mx-auto px-4 md:px-10">
+        <div className="max-w-[1200px] mx-auto px-4 md:px-10 mb-5">
           <Reveal>
             <SoundBars className="mb-3 md:mb-4" />
             <Eyebrow>Impact Stories</Eyebrow>

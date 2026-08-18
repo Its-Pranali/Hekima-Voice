@@ -241,10 +241,10 @@ function Header() {
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur header-shadow" style={{
-        background: "rgba(247,242,231,0.9)",
-        borderBottom: `1px solid ${COLORS.line}`,
-        boxShadow: scrolled ? "0 8px 24px -18px rgba(27,22,38,0.35)" : "none",
-      }}
+      background: "rgba(247,242,231,0.9)",
+      borderBottom: `1px solid ${COLORS.line}`,
+      boxShadow: scrolled ? "0 8px 24px -18px rgba(27,22,38,0.35)" : "none",
+    }}
     >
 
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 h-[76px] flex items-center justify-between">
@@ -316,7 +316,7 @@ function Header() {
 /* ---------- Hero ---------- */
 function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden" style={{ background: `linear-gradient(180deg, ${COLORS.lavender} 0%, ${COLORS.lavenderSoft} 55%, ${COLORS.cream} 100%)`,}} >
+    <section id="top" className="relative overflow-hidden" style={{ background: `linear-gradient(180deg, ${COLORS.lavender} 0%, ${COLORS.lavenderSoft} 55%, ${COLORS.cream} 100%)`, }} >
       {/* ambient blobs */}
       <div className="blob-a pointer-events-none absolute -top-24 -right-16 w-[420px] h-[420px] rounded-full" style={{ background: `radial-gradient(circle, ${COLORS.purple}33, transparent 70%)`, filter: "blur(30px)" }} aria-hidden="true" />
       <div

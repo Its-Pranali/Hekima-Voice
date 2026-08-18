@@ -81,10 +81,18 @@ function Gallery() {
 
                     <Reveal>
                         <div className="gallery-grid">
-                            <img src="/assets/img 1.jpg" alt="" className="gallery-img g-img1" />
-                            <img src="/assets/img4.jpg" alt="" className="gallery-img g-img2" />
-                            <img src="/assets/img9.jpg" alt="" className="gallery-img g-img3" />
-                            <img src="/assets/img11.jpeg" alt="" className="gallery-img g-img4" />
+                            <div className="img-zoom overflow-hidden g-img1">
+                                <img src="/assets/img 1.jpg" alt="Community support story" className="gallery-img transition-transform duration-700 hover:scale-110" />
+                            </div>
+                            <div className="img-zoom overflow-hidden g-img2">
+                                <img src="/assets/img4.jpg" alt="Youth workshop story" className="gallery-img transition-transform duration-700 hover:scale-110" />
+                            </div>
+                            <div className="img-zoom overflow-hidden g-img3">
+                                <img src="/assets/img9.jpg" alt="STEAM education story" className="gallery-img transition-transform duration-700 hover:scale-110" />
+                            </div>
+                            <div className="img-zoom overflow-hidden g-img4">
+                                <img src="/assets/img11.jpeg" alt="Girls empowerment story" className="gallery-img transition-transform duration-700 hover:scale-110" />
+                            </div>
                         </div>
                     </Reveal>
                 </div>

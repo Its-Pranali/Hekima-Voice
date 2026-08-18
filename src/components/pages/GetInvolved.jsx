@@ -221,7 +221,7 @@ export default function GetInvolved() {
           <div className="grid md:grid-cols-2 gap-8">
             {filteredRoles.map((role, idx) => (
               <Reveal key={role.id} delay={idx * 90}>
-                <div className="group relative rounded-3xl overflow-hidden bg-white border border-purple-100 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-900/10 flex flex-col justify-between h-full">
+                <div className="lift group relative rounded-3xl overflow-hidden bg-white border border-purple-100 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-900/10 flex flex-col justify-between h-full">
 
                   {/* Role Header Image & Overlay */}
                   <div className="relative h-48 sm:h-56 overflow-hidden">

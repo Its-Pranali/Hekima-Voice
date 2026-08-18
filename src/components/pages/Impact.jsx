@@ -297,7 +297,7 @@ function Impact() {
               style={{ background: COLORS.dark }}
             >
               {stats.map((s, i) => (
-                <div key={s.label} className={`relative ${i === 4 ? "col-span-2 sm:col-span-1" : ""}`}>
+                <div key={s.label} className={`relative lift p-4 rounded-xl hover:bg-white/5 transition-all duration-300 group cursor-default ${i === 4 ? "col-span-2 sm:col-span-1" : ""}`}>
                   {i !== 0 && (
                     <span
                       className="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 -ml-3 h-10 w-px"
@@ -305,10 +305,10 @@ function Impact() {
                       aria-hidden="true"
                     />
                   )}
-                  <div className="font-serif text-[24px] sm:text-[32px] md:text-[36px]" style={{ color: COLORS.goldSoft }}>
+                  <div className="font-serif text-[24px] sm:text-[32px] md:text-[36px] group-hover:scale-110 transition-transform duration-300" style={{ color: COLORS.goldSoft }}>
                     <Counter to={s.num} prefix={s.prefix} suffix={s.suffix} />
                   </div>
-                  <div className="mt-2 text-[11px] sm:text-[12px] md:text-[12px] max-w-[160px] mx-auto" style={{ color: "#B9B2C6" }}>
+                  <div className="mt-2 text-[11px] sm:text-[12px] md:text-[12px] max-w-[160px] mx-auto group-hover:text-white transition-colors" style={{ color: "#B9B2C6" }}>
                     {s.label}
                   </div>
                 </div>

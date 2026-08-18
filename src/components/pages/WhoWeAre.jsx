@@ -80,17 +80,14 @@ function WhoWeAre() {
               lives.
             </h2>
             <p className="mt-6 text-[15px] leading-relaxed" style={{ color: COLORS.inkSoft }}>
-              Hekima Voice began as a handful of neighbours meeting in a living
-              room to talk about what their community needed and wasn't
-              getting. Today we're a small, growing team that still starts
-              every project the same way: by listening first.
+              Hekima Voice (HV) is a non-profit, non-governmental organization (NGO) founded and registered in 2014 under the NGO Act No. 24 of 2002, with its headquarters in Bukoba, Kagera, Tanzania.
+
             </p>
             <p className="mt-4 text-[15px] leading-relaxed" style={{ color: COLORS.inkSoft }}>
-              We partner with residents, local leaders, and organizers to
-              design programs that reflect real priorities — then stay
-              accountable to the people those programs are meant to serve, long
-              after launch day.
+              Hekima Voice works to protect the rights, dignity, and well-being of children, adolescent girls, and young women affected by exploitation and abuse, including child labour, child marriage, domestic violence, and sexual exploitation.
             </p>
+            <p className="mt-4 text-[15px] leading-relaxed" style={{ color: COLORS.inkSoft }}>
+              Our programmes focus on preventing trafficking and reducing vulnerability through community-led, gender-responsive, cultural exchange, green entrepreneurship, and climate-conscious approaches. We combine advocacy, protection, education, economic empowerment, and innovative solutions to strengthen resilience, expand opportunities, and create sustainable change for vulnerable communities.            </p>
           </Reveal>
 
           <Reveal delay={150} y={34}>
@@ -123,15 +120,15 @@ function WhoWeAre() {
               const Icon = value.icon;
               return (
                 <Reveal key={value.title} delay={idx * 120}>
-                  <div className="h-full flex flex-col items-start md:px-8 first:md:pl-0 last:md:pr-0 text-left">
+                  <div className="lift h-full flex flex-col items-start p-6 md:p-8 rounded-2xl bg-white/70 backdrop-blur-sm border border-purple-900/10 hover:border-purple-900/20 text-left transition-all duration-300 group">
                     <span
-                      className="w-14 h-14 rounded-full flex items-center justify-center mb-6 flex-shrink-0"
+                      className="w-14 h-14 rounded-full flex items-center justify-center mb-6 flex-shrink-0 group-hover:scale-110 group-hover:bg-purple-100 transition-all duration-300 shadow-2xs"
                       style={{ background: COLORS.lavender }}
                     >
-                      <Icon className="w-6 h-6" style={{ color: COLORS.purpleDeep }} />
+                      <Icon className="w-6 h-6 group-hover:rotate-6 transition-transform duration-300" style={{ color: COLORS.purpleDeep }} />
                     </span>
                     <h4
-                      className="font-serif font-bold text-lg leading-snug mb-3"
+                      className="font-serif font-bold text-lg leading-snug mb-3 group-hover:text-purple-900 transition-colors"
                       style={{ color: COLORS.ink }}
                     >
                       {value.title}

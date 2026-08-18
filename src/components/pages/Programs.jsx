@@ -582,7 +582,7 @@ function Programs() {
                   className="px-3 flex-shrink-0 flex"
                   style={{ width: `${100 / visibleSlides}%` }}
                 >
-                  <div className="w-full bg-white rounded-2xl border border-purple-100/70 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden group/card text-left">
+                  <div className="lift w-full bg-white rounded-2xl border border-purple-100/70 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden group/card text-left">
                     {/* Card Image */}
                     <div className="relative h-56 w-full overflow-hidden flex-shrink-0 bg-slate-100">
                       <img
